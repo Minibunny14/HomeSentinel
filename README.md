@@ -31,9 +31,6 @@ A lightweight home security system that runs on the Raspberry Pi Pico W. It cont
 
 7. Power supply or USB power
 
-
-
-
 ## System Architecture
 
 The following diagram illustrates how devices in the PicoSecure system interact:
