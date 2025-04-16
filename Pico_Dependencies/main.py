@@ -3,8 +3,8 @@ import socket
 import time
 
 # Replace these with your actual Wi-Fi credentials
-ssid = 'Phi'
-password = 'RISisTheKey!MU-MIM0'
+ssid = 'OhYeeGee'
+password = '123456789'
 
 # Connect to Wi-Fi
 wlan = network.WLAN(network.STA_IF)
@@ -30,7 +30,7 @@ html = """<!DOCTYPE html>
 """
 
 # Setup socket
-addr = socket.getaddrinfo('0.0.0.0', 80)[0][-1]
+addr = socket.getaddrinfo('0.0.0.0', 1024)[0][-1]
 s = socket.socket()
 s.bind(addr)
 s.listen(1)
