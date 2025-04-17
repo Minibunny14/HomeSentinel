@@ -1,0 +1,6 @@
+@server_HostAddress = http://0.0.0.0:5000
+
+GET {{server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
