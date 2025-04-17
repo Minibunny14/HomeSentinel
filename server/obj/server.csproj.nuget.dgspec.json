@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/biboy/Desktop/projects/homeTripWire/HomeSentinel/server/server.csproj": {}
+    "C:\\Users\\GGPC\\OneDrive\\Desktop\\HomeSentinel\\server\\server.csproj": {}
   },
   "projects": {
-    "/Users/biboy/Desktop/projects/homeTripWire/HomeSentinel/server/server.csproj": {
+    "C:\\Users\\GGPC\\OneDrive\\Desktop\\HomeSentinel\\server\\server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/biboy/Desktop/projects/homeTripWire/HomeSentinel/server/server.csproj",
+        "projectUniqueName": "C:\\Users\\GGPC\\OneDrive\\Desktop\\HomeSentinel\\server\\server.csproj",
         "projectName": "server",
-        "projectPath": "/Users/biboy/Desktop/projects/homeTripWire/HomeSentinel/server/server.csproj",
-        "packagesPath": "/Users/biboy/.nuget/packages/",
-        "outputPath": "/Users/biboy/Desktop/projects/homeTripWire/HomeSentinel/server/obj/",
+        "projectPath": "C:\\Users\\GGPC\\OneDrive\\Desktop\\HomeSentinel\\server\\server.csproj",
+        "packagesPath": "C:\\Users\\GGPC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\GGPC\\OneDrive\\Desktop\\HomeSentinel\\server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/biboy/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\GGPC\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -68,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
