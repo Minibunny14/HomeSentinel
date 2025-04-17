@@ -1,8 +1,15 @@
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
+
+// Configure Kestrel to listen on port 5050 on all network interfaces
+builder.WebHost.ConfigureKestrel(serverOptions =>
+{
+    serverOptions.ListenAnyIP(5050); // this allows 0.0.0.0:5050
+});
 
 var app = builder.Build();
 
@@ -14,28 +21,29 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-var summaries = new[]
-{
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-};
+var group = app.MapGroup("/alert");
 
-app.MapGet("/weatherforecast", () =>
+
+
+group.MapGet("/", () =>
 {
     var forecast =  Enumerable.Range(1, 5).Select(index =>
         new WeatherForecast
         (
-            DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-            Random.Shared.Next(-20, 55),
-            summaries[Random.Shared.Next(summaries.Length)]
+            "hi","hi","hi"
         ))
         .ToArray();
     return forecast;
-})
-.WithName("GetWeatherForecast");
+});
+
+int i = 0;
+
+group.MapPost("/create", ()=>{
+    i += 1;
+    Console.WriteLine("HIIIII" + i.ToString());
+    return Results.Ok("Printed successfully!");
+});
 
 app.Run();
 
-record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-}
+record WeatherForecast(string Date, string TemperatureC, string Summary);
