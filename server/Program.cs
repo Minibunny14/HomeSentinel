@@ -40,7 +40,7 @@ int i = 0;
 
 group.MapPost("/create", ()=>{
     i += 1;
-    Console.WriteLine("HIIIII" + i.ToString());
+    Console.WriteLine("Get request from hardware: " + i.ToString());
     return Results.Ok("Printed successfully!");
 });
 
