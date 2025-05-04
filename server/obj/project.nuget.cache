@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "e1CmxkcHOfU=",
+  "dgSpecHash": "2yV9obdjaZA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\GGPC\\OneDrive\\Desktop\\HomeSentinel\\server\\server.csproj",
+  "projectFilePath": "/Users/biboy/Desktop/projects/homeTripWire/HomeSentinel/server/server.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\GGPC\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.4\\microsoft.aspnetcore.openapi.9.0.4.nupkg.sha512",
-    "C:\\Users\\GGPC\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+    "/Users/biboy/.nuget/packages/microsoft.aspnetcore.openapi/9.0.4/microsoft.aspnetcore.openapi.9.0.4.nupkg.sha512",
+    "/Users/biboy/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512"
   ],
   "logs": []
 }

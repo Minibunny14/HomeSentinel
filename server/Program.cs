@@ -8,7 +8,7 @@ builder.Services.AddOpenApi();
 // Configure Kestrel to listen on port 5050 on all network interfaces
 builder.WebHost.ConfigureKestrel(serverOptions =>
 {
-    serverOptions.ListenAnyIP(5050); // this allows 0.0.0.0:5050
+    serverOptions.ListenAnyIP(8080); // this allows 0.0.0.0:8080
 });
 
 var app = builder.Build();
@@ -40,7 +40,7 @@ int i = 0;
 
 group.MapPost("/create", ()=>{
     i += 1;
-    Console.WriteLine("HIIIII" + i.ToString());
+    Console.WriteLine("Get request from hardware: " + i.ToString());
     return Results.Ok("Printed successfully!");
 });
 
