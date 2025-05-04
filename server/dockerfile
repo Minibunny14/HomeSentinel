@@ -16,5 +16,5 @@ WORKDIR /app
 COPY --from=build /app/out ./
 
 # Expose port and run
-EXPOSE 5050
+EXPOSE 8080
 ENTRYPOINT ["dotnet", "server.dll"]
