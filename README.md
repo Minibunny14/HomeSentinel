@@ -51,6 +51,12 @@ A lightweight, privacy-focused security system using **Espressif ESP32** microco
 3. **Alarm/Lock Modules** trigger based on ESP-NOW messages from sensors.  
 4. **Companion App** interacts with the primary node via **HTTP REST API** to send arm/disarm commands and retrieve status.
 
+
+---
+## Prototype
+Below is an image of the prototype of the `Home Sentinel`. The `.STL` files can be found in the `/3D_Prints` directory.
+![Prototype]( ./Images/HomeSentinel_Box.jpg)  
+
 ---
 
 ## Software Requirements  
@@ -63,11 +69,12 @@ A lightweight, privacy-focused security system using **Espressif ESP32** microco
 ---
 
 ## Installation & Setup  
-**Clone Repository**:  
+1. **Clone Repository**:  
    ```bash  
    git clone https://github.com/yourusername/HOME_SENTINEL.git 
    ```
-
+2. Follow the pin-outs and the circuit diagram as shown below:
+ ![Circuit Diagram]( ./Images/)  .  
 ---
 
 ## Contributing
