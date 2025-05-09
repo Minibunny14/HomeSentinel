@@ -5,10 +5,11 @@
 2. [Features](#features)  
 3. [Hardware Requirements](#hardware-requirements)  
 4. [System Architecture](#system-architecture)  
-5. [Software Requirements](#software-requirements)  
-6. [Installation & Setup](#installation--setup)  
-7. [Contributing](#contributing)  
-8. [Roadmap](#roadmap)  
+5. [Prototype](#prototype)  
+6. [Software Requirements](#software-requirements)  
+7. [Installation & Setup](#installation--setup)  
+8. [Contributing](#contributing)  
+9. [Roadmap](#roadmap)  
 
 ---
 
@@ -27,7 +28,7 @@ A lightweight, privacy-focused security system using **Espressif ESP32** microco
 - **Alarm System**: Activates a buzzer or piezoelectric alarm on unauthorized access.  
 - **Status Indicators**: LEDs or built-in ESP32 LEDs show system status (armed/disarmed).  
 - **Expandable Design**: Add sensors via GPIO pins or ESP-NOW nodes.  
-- **No Cloud Dependency**: Fully local operation for enhanced privacy.  
+- **No Cloud Dependency**: Fully local operation for enhanced privacy. However, if a cloud service is desired, a `Docker File` has been included withing the `/server` directory to then be containarised and run on a cloud service of your choice, `AWS`, `Azure` etc. 
 
 ---
 
