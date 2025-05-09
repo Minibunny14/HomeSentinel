@@ -101,5 +101,12 @@ Submit your PR with a clear explanation of what you’ve added or changed.
 ---
 
 ## Roadmap
-- [ ] This is an unchecked checkbox
-- [x] This is a checked checkbox
+- [x] ESP-NOW communication between ESP32 nodes
+- [x] Master ESP communication with server
+- [x] Motion detection and alarm triggering
+- [x] REST API for remote control
+- [x] EBasic companion app (HTTP interface)
+- [ ] OTA (Over-The-Air) firmware updates
+- [ ] Wi-Fi fallback mode for HTTP API
+- [ ] MQTT support for extended IoT use cases
+- [ ] Secure API endpoints with token-based authentication
