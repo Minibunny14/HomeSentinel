@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "cGifSLNzTzd2u7nwRViX9XSIdpfM/PZJ54btAXk9aTI=",
+  "Source": "server",
+  "BasePath": "_content/server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
