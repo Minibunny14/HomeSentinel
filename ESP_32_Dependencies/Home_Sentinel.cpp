@@ -1,9 +1,9 @@
 #include <WiFi.h>
 #include <HTTPClient.h>
 
-const char* ssid = "OhYeeGee";      // Your Wi-Fi SSID
-const char* password = "123456789";          // Empty password for open network
-const char* serverURL = "http://192.168.208.96:5050";  // Replace with your backend endpoint
+const char* ssid = "";      // Your Wi-Fi SSID
+const char* password = "";          // Empty password for open network
+const char* serverURL = "";  // Replace with your backend endpoint
 const int PIR_SENSOR_OUTPUT_PIN = 13; /* PIR sensor O/P pin */
 const int ALARM = 12;
 int warm_up;
