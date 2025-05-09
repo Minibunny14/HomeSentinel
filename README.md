@@ -44,7 +44,7 @@ A lightweight, privacy-focused security system using **Espressif ESP32** microco
 ---
 
 ## System Architecture  
-![System Architecture](./Images/HomeSentinelNetworkArchitecture.drawio.png)  
+![System Architecture]( ./Images/HomeSentinelNetworkArchetechture.drawio.png)  
 
 1. **Primary ESP32** acts as the central hub.  
 2. **Secondary ESP32 Nodes** (e.g., motion sensors, door locks) communicate directly with the hub via ESP-NOW.  
@@ -63,6 +63,43 @@ A lightweight, privacy-focused security system using **Espressif ESP32** microco
 ---
 
 ## Installation & Setup  
-1. **Clone Repository**:  
+**Clone Repository**:  
    ```bash  
-   git clone https://github.com/yourusername/HOME_SENTINEL.git  
+   git clone https://github.com/yourusername/HOME_SENTINEL.git 
+   ```
+
+---
+
+## Contributing
+
+We welcome contributions from developers, hobbyists, and security enthusiasts! Here's how you can get involved:
+
+1. **Fork the Repository**:
+
+Click the `Fork` button at the top right to create your own copy of the project.
+2. **Clone Your Fork**:
+```bash
+git clone https://github.com/yourusername/HOME_SENTINEL.git
+cd HOME_SENTINEL
+```
+3. **Create a Branch**:
+```bash
+git checkout -b feature/your-feature-name
+```
+4. **Make Your Changes**:
+
+Add features, fix bugs, or improve documentation.
+5. **Commit and Push**:
+```bash
+git commit -m "Add: Description of your change"
+git push origin feature/your-feature-name
+```
+6. **Create a Pull Request**:
+
+Submit your PR with a clear explanation of what you’ve added or changed.
+
+---
+
+## Roadmap
+- [ ] This is an unchecked checkbox
+- [x] This is a checked checkbox
