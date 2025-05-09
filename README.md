@@ -74,8 +74,12 @@ Below is an image of the prototype of the `Home Sentinel`. The `.STL` files can 
    ```bash  
    git clone https://github.com/yourusername/HOME_SENTINEL.git 
    ```
-2. Follow the pin-outs and the circuit diagram as shown below:
- ![Circuit Diagram]( ./Images/)  .  
+2. Follow the pin-outs (or custom pin-outs) and the circuit diagram as shown below:
+ ![Circuit Diagram]( ./Images/Home_Sentinel_Circuit_Diagram.drawio.png)
+
+3. `Flash` the ESP-32 with the code
+
+4. `Test` it out! 
 ---
 
 ## Contributing
