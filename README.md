@@ -1,5 +1,5 @@
 # PROJECT: HOME_SENTINEL  
-
+🏡 **Automated Home Security System**
 ## Table of Contents  
 1. [Abstract](#abstract)  
 2. [Features](#features)  
